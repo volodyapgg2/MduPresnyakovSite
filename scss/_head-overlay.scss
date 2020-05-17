@@ -1,0 +1,45 @@
+.head-overlay{
+    position: absolute;
+    height: 100vh;
+    background-color: rgba(0,0,0,.6);
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transition: transform .3s linear;
+    transform: translate(0,-100%);
+   
+}
+.overlay{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+        &__navigation{
+           text-align: center;
+        }
+        &__item{
+            & + & {
+                padding-top: 10px;
+            }
+        }
+    &__link{
+        color: #f98561;
+        font-weight: 700;
+        font-size: 3.5rem;
+    }
+    &__exit{
+        color: #f98561;
+        font-size: 4rem;
+        position: absolute;
+        top: 30px;
+        right:30px;
+        cursor: pointer;
+    }
+}
+.overlay-prime{
+    transform: translate(0,0);
+    
+  
+}

@@ -1,0 +1,119 @@
+.footer{
+    background-color: #2e3e4f;
+    padding: 45px 0 35px;
+    &__title{
+        text-transform: uppercase;
+        color: #f98561;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 3rem;
+        margin: 0 0 25px 0;
+
+    }
+    &__text{
+        padding-bottom: 14px;
+        border-bottom: 1px solid #556270;
+        font-size: 1.2rem;
+        color: #a3afb2;
+        &--height{
+            line-height: 1.7;
+        }
+    }
+    &__link{
+        display: inline-block;
+        width: 100%;
+        line-height: 1;
+        padding: 10px 0;
+        color: #2190c1;
+    }
+
+  
+}
+
+.btn--footer{
+    padding: 10px 20px;
+
+
+    line-height: 1;
+}
+
+.newsletter,
+.recent-projects,
+.twitter-feeds{
+    width: 100%;
+    max-width: 250px;
+ 
+
+}
+
+.form{
+    &__field{
+        display: inline-block;
+        width: 100%;
+        border: 0;
+        padding: 5px 5px;
+        border-radius:4px ;
+        margin: 15px 0 15px;
+        outline: none;
+    }
+    &__title{
+        color: #2190c1;
+        font-size: 1.3rem;
+    }
+    &__wrap{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+.recent-projects__wrap{
+display:flex;
+padding-bottom: 15px;
+border-bottom: 1px solid #556270;
+   &-primary{
+     padding: 0 0 0 10px;
+       margin: 0;
+       border: 0;
+   }
+}
+.recent-projects__wrap+.recent-projects__wrap{
+    padding-top: 10px;
+}
+.square-wrap{
+    width: 100%;
+    max-width: 57px;
+   overflow: hidden;
+}
+.square{
+    padding-top: 100%;
+    background-color: #fff;
+}
+.contact{
+    max-width: 160px;
+    width: 100%;
+}
+.contact__item{
+     font-size: 1.3rem;
+     padding: 0 0 25px 40px;
+     text-align: center;
+     color: #a3afb2;
+     line-height: 1.2;
+     text-align: left;
+    
+    &--phone{
+        background  : url('../img/icons/phone.png')0  0  no-repeat;
+    }
+    &--sms{
+        background  : url('../img/icons/sms.png') 5px 0  no-repeat;
+    }
+   &--message{
+    padding: 0 0 0 45px;
+    background  : url('../img/icons/message.png') 0 1px no-repeat;
+    &-uscontacts{
+        padding-right: 35px;
+        background-position: 0 3px;
+    }
+   }
+   &--home{
+    padding: 0 0 25px 38px;
+    background: url('../img/icons/home.png') 0 1px no-repeat;
+   }
+}

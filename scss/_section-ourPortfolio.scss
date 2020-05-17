@@ -1,0 +1,122 @@
+$ourPortfoliocolorPrimary:#f98561;
+$ourPortfoliocolor:#fff;
+$fontfamily:'Bree Serif', serif;
+.section__ourPortfolio{
+    background-color: #2e3e4f;
+    padding: 70px 0 80px;
+}
+.section__ourPortfolio{
+   &-caption{
+       display: flex;
+       justify-content: space-between;
+       padding-bottom: 65px;
+   }
+   &-title{
+       margin: 0;
+       color: $ourPortfoliocolorPrimary;
+       font-size: 3rem;
+   }
+}
+ .overlay{
+    
+    &-caption{
+        position: absolute;
+        width: 100%;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        opacity: 0;
+        background-color: rgba($color: #000000, $alpha: .5);
+    }
+    &-title{
+        margin: 0 0 10px ;
+        font-size: 2rem;
+        font-family: 'Bree Serif', serif;
+        font-weight: normal;
+    }
+        &-subtitle{
+            font-size: 1.1rem;
+         
+        }
+    }    
+
+.ourPortfolio__caption{
+    color: $ourPortfoliocolorPrimary;
+    margin: 20px 0 10px;
+    font-size: 1.7rem;
+    line-height: 1;
+  
+    font-family: $fontfamily;
+    
+}
+.ourPortfolio__text{
+    color: #000;
+    font-size: 1.1rem;
+    
+}
+
+.ourPortfolio__photo{
+position: relative;
+padding-top: 80%;
+overflow: hidden;
+color: $ourPortfoliocolor;
+background-color: #bebebe;
+border: 11px solid $ourPortfoliocolor;
+&-main{
+   
+
+    & img {
+        object-fit: cover;
+        min-width: 100%;
+        min-height: 100%;
+        position: absolute;
+        left: 50%;
+        opacity: 1;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
+&:hover &-overlay {
+transition: .3s ease-in-out;
+background-color: rgba($color: #000000, $alpha: .5);
+}
+&-overlay{
+    border: 1px solid $ourPortfoliocolor;
+    padding: 8px 90px 6px 20px;
+    position: absolute;
+    left: 50%;
+    opacity: 0;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 4px;
+    &--primary{
+        left: 50%;
+        top: 70%;
+        transform: translate(-50%,-50%);
+    }
+    &-text{
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        opacity: 0;
+        transform: translate(-130%,-50%);
+        font-size: 1.7rem;
+        font-family:$fontfamily ;
+        
+    }
+}
+&:hover &-overlay,
+&:hover .overlay-caption{
+    opacity: 1;
+    transition: opacity .3s ease-in-out;
+}
+&:hover .ourPortfolio__photo-overlay-text{
+ opacity: 1;
+ transform: translate(-20%,-50%) ;
+ transition: transform .3s ease-in-out, scale .3s ease-in-out,opacity .3s ease-in-out ;
+}
+}
+.dropdown--menu{
+    display: none;
+}

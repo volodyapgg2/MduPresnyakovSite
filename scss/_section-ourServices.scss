@@ -1,0 +1,50 @@
+$ourservices:#515862;
+
+.section__ourServices{
+    position: relative;
+    background-color:#f4f4f4;
+    padding: 50px 0 35px 0;
+}
+.section-ourServices-title{
+    text-transform: uppercase;
+    position: absolute;
+    top:0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family:'Bebas Neue', cursive;
+    margin: 0;
+    font-size: 2.2rem;
+    background-color: #2190c1;
+    padding: 5px 30px;
+    border-radius: 4px;
+    color: #fff;
+}
+.services_img-wrap{
+    max-height: 120px;
+    max-width: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.services{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: $ourservices;
+    &__title{
+        margin: 25px 0 10px;
+        line-height: 1;
+        font-size: 1.7rem;
+        font-weight: normal;
+        font-family: 'Bree Serif', serif;
+        
+    }
+    &__text{
+        font-size: 1.1rem;
+        text-align: center;
+        padding: 0 10px;
+        &-blue{
+           font-weight: 600;
+           color: #3e9dd1;
+        }
+    }
+}

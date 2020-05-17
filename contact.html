@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+      <!-- <script src="https://www.google.com/recaptcha/api.js?render=6LeA_esUAAAAAAPOGHx_fR8iBPgbt12be51HpcX3"></script>  -->
+      <script src="https://kit.fontawesome.com/081098219c.js" crossorigin="anonymous"></script>
+    <title>Contact</title>
+    <!-- <script>
+        grecaptcha.ready(function() {
+            grecaptcha.execute('6LeA_esUAAAAAAPOGHx_fR8iBPgbt12be51HpcX3', {action: 'socila'});
+        });
+        </script> -->
+</head>
+
+<body>
+
+    <div class="head-overlay">
+  
+        <div class="overlay">
+            <div class="overlay__exit">
+                <i class="fas fa-times  fas__exit"></i>
+             </div>
+         <ul class="overlay__navigation ul-normalize">
+             <li class="overlay__item"><a href="index.html" class="overlay__link">Home</a></li>
+             <li class="overlay__item"><a href="portfolio.html" class="overlay__link">Portfolio</a></li>
+             <li class="overlay__item"><a href="about.html" class="overlay__link">About</a></li>
+             <li class="overlay__item"><a href="contact.html" class="overlay__link">Contact</a></li>
+         </ul>
+        </div>
+    </div>
+    <header class="header ">
+        <div class="container">
+            <div class="row justify-between column">
+                <a class="header__logo" href="#">
+                    <h1 class="header__logo-title">
+                        <!-- <img src="./img/logo.png" alt="Logo"> -->
+                        <i class="fas fa-utensils"></i>
+                        California
+                    </h1>
+                </a>
+               
+                        <nav class="nav">
+                        <ul class="nav__list ul-normalize">
+                        <li class="nav__list-item"><a href="index.html" class="nav__list-link">Домашняя страница</a></li>
+                        <li class="nav__list-item"><a href="portfolio.html" class="nav__list-link">Меню</a></li>
+                        <li class="nav__list-item"><a href="about.html" class="nav__list-link">О Нас</a></li>
+                        <li class="nav__list-item"><a href="contact.html" class="nav__list-link">Контакты</a></li>
+                        
+                        </ul>
+                        </nav>
+     
+
+                    
+                        <div class="search">
+                        <!-- <button class="search__caption" >Search</button>
+                        <input type="text" name="search" id="seacrch" class="search__field" >
+                        <img src="./img/Loop.png" alt="Loop" class="search__loop"> -->
+                       
+                        
+                        <div class="header__burger">
+                            <span></span>
+                          </div>
+                
+                        
+                   </div>
+             
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <section class="section  section--portfolio section--contact"
+            style="background-image:url('./img/Background.jpg')">
+            <div class="container">
+                <h2 class="section__portfolio-title">Контакты </h2>
+            </div>
+        </section>
+        <section class="section section--grey section--getInTouch">
+            <div class="container">
+                <h2 class="getInTouch-title">Как до нас добраться</h2>
+                <div class="getInTouch-text">
+                    Lorem ipsum dolor sit amet, dui ac bibendum fringilla, massa augue mattis enim, quis volutpat augue
+                    nisi vitae nibh. Proin nibh tortor, rutrum luctus euismod eu, rutrum eget nunc. Nam commodo tellus
+                    quis ante tempus quis auctor enim suscipit. Donec sit amet feugiat justo. Nulla vel nibh et erat
+                    consequat sollicitudin. Vivamus egestas erat ac arcu sagittis in tincidunt purus pharetra. Maecenas
+                    viverra suscipit arcu, ac adipiscing odio vehicula nec. Vestibulum non enim ac dui interdum tempus
+                    nam tortor odio.
+                </div>
+           <div class="row around--wrap">
+                    <form action="" method="POST" class="singForm">
+                        <span class="singForm__caption">
+                            Подпешитесь на наши новости <span class="singForm__req">*</span> и оставте комментарий
+                        </span>
+
+                        <div class="singForm__wrap">
+                            <label for="name" class="singForm__title">Имя <span
+                                    class="singForm__req">*</span></label><br>
+                            <input type="text" name="name" id="name" class="singForm__field" required>
+                        </div>
+
+                        <div class="singForm__wrap">
+                            <label for="email" class="singForm__title">E-MAIL Почта <span
+                                    class="singForm__req">*</span></label><br>
+                            <input type="email" name="email" id="email" class="singForm__field" required>
+                        </div>
+
+                        <div class="singForm__wrap">
+                            <label for="subject" class="singForm__title">Город <span
+                                    class="singForm__req">*</span></label><br>
+                            <input type="text" name="email" id="subject" class="singForm__field" required>
+                        </div>
+
+                        <div class="singForm__wrap">
+                            <label for="message">Сообщение <span class="singForm__req">*</span></label><br>
+                            <textarea name="message" id="message" class="singForm__field singForm__field--message"
+                                required></textarea>
+
+                        </div>
+                        <div class="singForm__captcha">
+                            <img src="./img/captcha.png" alt="" class="singForm__captcha-img">
+                            <div class="singForm__captcha-wrap">
+                                <label for="captcha">Введите код</label><br>
+                                <input type="text" name="captcha" id="captcha" class="singForm__captcha-field" required>
+                            </div>
+
+                        </div>
+                        <div class="row row--end">
+                            <button type="submit" class="btn btn--primary btn--form">Отправить</button>
+                        </div>
+
+
+
+                    </form>
+
+                    <div class="usContacts">
+
+                        <div class="usContacts__contacts">
+                      
+                            <ul class="contact__list ul-normalize ">
+                                <li class="contact__item contact__item--phone">
+                                    <span class="usContacts__marked">Городской телф.:</span> 1 - 000 - 000-0000<br>
+                                    <span class="usContacts__marked" >Мобильный :</span>         1 - 000 - 000-0000
+                                </li>
+                                <li class="contact__item contact__item--home  ">
+                                   г.Мариуполь АС-2 кафе Калифорния
+                                </li>
+                                <li class="contact__item contact__item--message contact__item--message-uscontacts">
+                                   <a href="" class="usContacts__link"> abcdefg@hijs.dfh</a>
+                                   <a href="" class="usContacts__link"> fjashfaf@jkfs.ckd</a>
+                                </li>
+                            </ul>
+                            </div>
+
+
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10864.057307511073!2d37.5102775!3d47.0987898!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1d9d65ed39cd4f8a!2z0JDQoS0y!5e0!3m2!1suk!2sua!4v1589732214055!5m2!1suk!2sua"  class="usContacts__map"></iframe>
+<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10864.057307511073!2d37.5102775!3d47.0987898!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1d9d65ed39cd4f8a!2z0JDQoS0y!5e0!3m2!1suk!2sua!4v1589732214055!5m2!1suk!2sua" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
+                        <h3 class="usContacts__title">Пописывайтесь на нас</h3>
+                           <ul class="usContacts__socials ul-normalize">
+                               <li><a href="" class="usContacts__link"><img src="./img/icons/twitter.png" alt="twitter" class="usContacts__icon"></a></li>
+                               <li><a href="" class="usContacts__link"><img src="./img/icons/facebook.png" alt="facebook" class="usContacts__icon"></a></li>
+                               <li><a href="" class="usContacts__link"><img src="./img/icons/youtube.png" alt="youtube" class="usContacts__icon"></a></li>
+                               <li><a href="" class="usContacts__link"><img src="img/icons/vimeo.png" alt="vimeo" class="usContacts__icon"></a></li>
+                               <li><a href="" class="usContacts__link"><img src="./img/icons/linkedin.png" alt="linkedin" class="usContacts__icon"></a></li>
+                               <li><a href="" class="usContacts__link"><img src="./img/icons/google +.png" alt="google +" class="usContacts__icon"></a></li>
+                           </ul>     
+
+
+                    </div>
+                    
+    
+
+
+
+
+
+                </div>
+             
+            </div>
+        </section>
+    </main>
+    <footer class="footer"> 
+
+        <div class="container">
+        <div class="row row--between around--wrap footer__wrap end"> 
+        <div class="twitter-feeds">
+         <h2 class="footer__title">Отзывы о нас</h2>
+          <p class="footer__text" >
+            Последний коментарий 
+            <a href="" target="_blank" class="footer__link">http://tadjalskfj.com</a>
+            <time datetime="">2 недели назад</time>
+          </p>
+          <p class="footer__text">
+            Последний коментарий
+            <a href="" target="_blank" class="footer__link">http://tadjalskfj.com</a>
+            <time datetime="">2 недели назад</time>
+          </p>
+          <p class="footer__text">
+            Последний коментарий
+            <a href="" target="_blank" class="footer__link">http://tadjalskfj.com</a>
+            <time datetime="">2 недели назад</time>
+          </p>
+        
+        
+        </div>
+        
+        <div class="newsletter">
+            <h2 class="footer__title">Новости</h2>
+            <p class="footer__text footer__text--height">
+                Lorem ipsum dolor sit amet, consectetur adip
+                iscing elit. Ut ultricies sagittis magna a comm. 
+                Ut eget eros mauris, ut cursus urna. 
+               
+            </p>
+             <form action="#" method="POST" class="form">
+                    <label for="footer__sing-in" class="form__title">Подписаться на новости</label>
+                <input type="email" class="form__field" name="email" id="footer__sing-in">
+                    <div class="form__wrap">
+                        <button type="submit" class="btn btn--primary btn--footer">
+                            Подписаться 
+                        </button>
+                    </div>
+        
+             </form>
+        
+        
+        </div>
+        
+        
+        
+        
+        
+        <div class="contact">
+        <h2 class="footer__title">Контакты</h2>
+        <ul class="contact__list ul-normalize">
+            <li class="contact__item contact__item--phone">1 - 000 - 000-0000<br>
+                1 - 000 - 000-0000
+            </li>
+            <li class="contact__item contact__item--sms ">
+                1 - 000 - 000-0000<br>
+                1 - 000 - 000-0000
+            </li>
+            <li class="contact__item contact__item--message">
+                abcdefg@hijs.dfh
+                fjashfaf@jkfs.ckd
+            </li>
+        </ul>
+        </div>
+        
+        
+        
+        </div>
+            
+        </div>
+            
+            </footer>
+        
+<script src="./src/app.js"></script>
+</body>
+
+</html>

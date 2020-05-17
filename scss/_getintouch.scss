@@ -1,0 +1,121 @@
+.getInTouch{
+    &-title{
+        font-family: 'Bebas Neue', sans-serif;
+        margin: 0;
+        color: #2190c1;
+        font-size: 5rem;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &-text{
+    text-align: center;
+    padding: 1% 14% 4%;
+    font-size: 1.3rem;
+    color: #515862;
+    }
+}
+
+.singForm{
+    color: #515862;
+    max-width: 440px;
+    width: 100%;
+    font-size: 1.2rem;
+    border-right: 1px solid rgba(0, 0, 0, .3);
+    font-weight: 700;
+    &__req{
+        color: red;
+    }
+    &__title{
+        text-transform: uppercase;
+      
+    }
+    &__field{
+        margin-top: 5px;
+        display: inline-block;
+        width: 100%;
+        max-width: 360px;
+        border: 1px solid #e0e2e3;
+        padding: 5px 5px;
+        outline: none;
+        &:invalid{
+           border-color: red;
+        }
+        &:valid{
+            border-color:green;
+        }
+        &:not(:focus){
+            border-color:#e0e2e3;
+        }
+        &--message{
+            resize: none;
+            height: 270px;
+            padding: 5px;
+        }
+    }
+    &__wrap  {
+        &:nth-child(n){
+            padding: 30px 0;
+        }
+        & + & {
+        padding: 0 0 30px;
+        }
+    }
+   
+    &__captcha{
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        &-img{
+            max-width: 100%;
+        }
+        &-wrap{
+            padding-left: 15px;
+        }
+        &-field{
+            display: inline-block;
+            margin-top: 10px;
+            max-width: 147px;
+            width: 100%;
+        }
+    }
+}
+.usContacts{
+   padding-left: 60px; 
+   &__marked,
+   &__link{
+       color: #0988b9;
+   }
+   &__link{
+       text-decoration: underline;
+   }
+    &__contacts{
+        max-width: 200px;
+        width: 100%;
+        padding-bottom: 30px;
+      
+    }
+    &__map{
+        width: 312px;
+        height: 312px;
+        border: 2px solid #fff;
+    }
+    &__title{
+        font-size: 3.5rem;
+        color: #515862;
+        font-family: 'Bebas Neue', sans-serif;
+    }
+    &__title{
+        margin: 40px 0 20px;
+        line-height: 1;
+    }
+    &__socials{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__link img{
+        &:hover{
+            transform: scale(1.2);
+            transition: scale .5s ease;
+        }
+    }
+}
